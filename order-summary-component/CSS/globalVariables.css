@@ -1,0 +1,35 @@
+/*
+    Front-end Style Guide
+
+    Layout
+
+    The designs were created to the following widths:
+*/
+*,
+*::after,
+*::before {
+  --Mobile: 375px;
+  --Desktop: 1440px;
+
+  /* COLORS */
+
+  /* Primary */
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+    /**/
+
+  /* TYPOGRAPHY */
+
+  /* Body Copy */
+  --Font-size: 16px; /* Paragraph */
+
+  /* Font */
+  --Family: "Red Hat Display", sans-serif;
+  --Weights: 500, 700, 900;
+    /**/
+}
