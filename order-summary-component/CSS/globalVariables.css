@@ -6,7 +6,13 @@
 *,
 *::after,
 *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
   --Mobile: 375px;
+  --Component-Width: 327px; /* 327px */
+  --Component-Height: 567px; /* 567px */
   --Desktop: 1440px;
 
   /* COLORS */
