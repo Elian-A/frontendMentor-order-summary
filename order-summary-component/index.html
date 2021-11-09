@@ -12,10 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
-    
+
     <!-- Styles -->
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/globalVariables.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/globalVariables.css" />
 
     <!-- Title -->
     <title>Frontend Mentor | Order summary card</title>
@@ -25,44 +25,48 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
   </head>
   <body>
     <div class="container">
       <!-- Imagen -->
       <div class="container__image-container">
-        <img src="./images/illustration-hero.svg" alt="" class="image-container__image"/>
+        <img
+          src="./images/illustration-hero.svg"
+          alt=""
+          class="image-container__image"
+        />
       </div>
 
       <!-- Body -->
-      <div class="container__body">
-        <div class="container__body-text">
-          <h1>Order Summary</h1>
-          <p>
-            You can now listen to millions of songs, audiobooks, and podcasts on any
-            device anywhere you like!
-          </p>
-        </div>
-        
-        <!-- Weird thing below text-->
-        <div class="container__body-info">
-          <span class="note-icon"></span>
+      <div class="container__text">
+        <h1>Order Summary</h1>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+
+      <!-- Weird thing below text-->
+      <div class="container__info">
+        <img src="./images/icon-music.svg" alt="Music Icon" />
+        <div class="container__info-text">
           <h2>Annual Plan</h2>
           <p>$59.99/year</p>
         </div>
+        <a href="#">Change</a>
+      </div>
 
-        <button class="button change-button">Change</button>
+      <div class="container__buttons">
         <button class="button payment-button">Proceed to Payment</button>
         <button class="button cancel-button">Cancel Order</button>
       </div>
     </div>
 
     <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Elian Emanuel Avalos Olmedo</a>.
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Elian Emanuel Avalos Olmedo</a>.
     </div>
-
   </body>
 </html>

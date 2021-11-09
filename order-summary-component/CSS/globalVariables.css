@@ -34,6 +34,8 @@
 
   /* Font */
   --Family: "Red Hat Display", sans-serif;
-  --Weights: 500, 700, 900;
+  --Small-weight: 500;
+  --Medium-weight: 700;
+  --Large-weight: 900;
     /**/
 }
