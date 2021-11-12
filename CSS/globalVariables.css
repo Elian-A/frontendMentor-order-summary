@@ -2,14 +2,16 @@
     Front-end Style Guide
     Layout
 */
-  /* The designs were created to the following widths: */
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+:root {
+  /* The designs were created to the following widths: */
   --Mobile: 375px;
   --Component-Width: 327px; /* 327px */
   --Component-Height: 567px; /* 567px */
@@ -25,7 +27,7 @@
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
-    /**/
+  /**/
 
   /* TYPOGRAPHY */
 
@@ -37,5 +39,5 @@
   --Small-weight: 500;
   --Medium-weight: 700;
   --Large-weight: 900;
-    /**/
+  /**/
 }
